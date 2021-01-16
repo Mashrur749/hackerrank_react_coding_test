@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" time="30.874">
+  <testsuite name="undefined" errors="0" failures="6" skipped="0" timestamp="2021-01-16T19:36:50" time="14.069" tests="6">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.152">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:21:25)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname=" News tab works" name=" News tab works" time="1.655">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:29:34)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Contact tab works" name=" Contact tab works" time="0.061">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:34:34)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" About tab works" name=" About tab works" time="0.013">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:39:34)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Home tab works" name=" Home tab works" time="0.012">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:44:34)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Navigation works" name=" Navigation works" time="0.017">
+      <failure>Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+    at invariant (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\tiny-invariant\dist\tiny-invariant.cjs.js:13:11)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-router\modules\Switch.js:17:11
+    at updateContextConsumer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18304:19)
+    at beginWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:18661:14)
+    at HTMLUnknownElement.callCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:100:25
+    at batchedUpdates$1 (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\@testing-library\react\dist\pure.js:96:26)
+    at renderApp (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:15:25)
+    at Object.asyncJestLifecycle (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:53:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+      <failure>TypeError: Cannot read property &apos;children&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\src\App.test.js:49:34)
+    at Object.asyncJestTest (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\mashr\Desktop\New folder\dev\New folder\yelp\5eb1998c-75ac-44f0-96b2-4ee68b380442\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
