@@ -5,7 +5,14 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {applyPolyfills, defineCustomElements} from 'h8k-components/loader';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { BrowserRouter } from 'react-router-dom';
+
+ReactDOM.render
+     (
+          <BrowserRouter>
+               <App />
+          </BrowserRouter>
+          , document.getElementById('root'));
 registerServiceWorker();
 
 applyPolyfills().then(() => {
