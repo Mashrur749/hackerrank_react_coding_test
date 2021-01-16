@@ -20,6 +20,7 @@ function App() {
       <NavBar/>
       {/*Routes*/}
       
+      <div className="card w-20 ma-0">
       <section className="card-text" data-testid="tab-content">
         <Switch>
           <Route path="/" component={Home} exact />
@@ -28,7 +29,7 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </section>
-
+      </div>
     </div>
   );
 }
